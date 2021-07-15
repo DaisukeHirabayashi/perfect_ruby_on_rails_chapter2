@@ -11,11 +11,13 @@ MVCモデルの基本を抑えたコードになっている。
 以下２つのコードを主に参照
 - app/views/books/show.html.erb
 - app/views/layouts/application.html.erb
+
 controllerのrender :showの部分では、具体的に
 - 描画するためのテンプレートを探す
 - 見つかったテンプレートをもとに、データを展開し最終的なHTMLを作成する
 
 といったことをおこなっている。
+
 また、テンプレートを探索する時、テンプレートファイルは以下のような規約で検索されている。
 - RAILS_ROOT/appp/views/コントローラ名/アクション名.html.erb
 
