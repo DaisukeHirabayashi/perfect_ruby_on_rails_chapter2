@@ -31,3 +31,6 @@ controllerのレンダリング(render :show)の部分では、
 
 レイアウト用のテンプレートファイルは特に指定を行わない場合application.html.erbが用いられる。
 テンプレートを用いることでheadの部分は記述を共通化し、bodyの部分を書くということが可能になる。
+
+## APIサーバーとしてのビュー(JSONの返答)
+- app/controllers/books/show.json/jbuilder を参照
