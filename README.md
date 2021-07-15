@@ -5,7 +5,7 @@ MVCモデルの基本を抑えたコードになっている。
 
 ## 動かし方
 - git clone git@github.com:DaisukeHirabayashi/perfect_ruby_on_rails_chapter2.git
-- bundle install
+- gem install bundle
 - bin/rails db:create
 - bin/raisl db:migrate
 ## ルーティングパターン
