@@ -2,6 +2,9 @@
 パーフェクト Ruby on Railsの2章の最終的なコードを残したもの。
 
 MVCモデルの基本を抑えたコードになっている。
+
+## 動かし方
+- git clone 
 ## ルーティングパターン
 - config/routes.rbを参照
 ## Controllerのサンプルコード
