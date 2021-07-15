@@ -33,7 +33,7 @@ controllerのレンダリング(render :show)の部分では、
 テンプレートを用いることでheadの部分は記述を共通化し、bodyの部分を書くということが可能になる。
 
 ## APIサーバーとしてのビュー(JSONの返答)
-Controller側でformat.jsonを指定し、urlとして
-http://localhost:3000/books/1.json のようにjsonを指定する。
+Controller側でformat.jsonを指定し、urlとして http://localhost:3000/books/1.json のようにjsonを指定する。
+また、jsonの返答内容を以下のファイルで指定
 - app/controllers/books/show.json/jbuilder を参照
 - RAILS_ROOT/appp/views/コントローラ名/アクション名.html.erb
