@@ -14,7 +14,7 @@ MVCモデルの基本を抑えたコードになっている。
 - app/views/books/show.html.erb
 - app/views/layouts/application.html.erb
 
-controllerのrender :showの部分では、具体的に
+controllerのレンダリング(render :show)の部分では、
 - 描画するためのテンプレートを探す
 - 見つかったテンプレートをもとに、データを展開し最終的なHTMLを作成する
 
