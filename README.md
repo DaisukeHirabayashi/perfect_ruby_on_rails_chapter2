@@ -1,10 +1,12 @@
 # Ruby on Rails perfct guide2章のコード
 パーフェクト Ruby on Railsの2章の最終的なコードを残したもの。
+
 MVCモデルの基本を抑えたコードになっている。
 ## ルーティングパターン
 - config/routes.rbを参照
 ## Controllerのサンプルコード
 - app/controllers/books_controller.rbを参照
+
 また、全てのController内で共通で行われること(今回は、ユーザーデバイスの認識)は、application_controlelr.rbに記述。
 
 ## Viewのサンプルコード
